@@ -2,6 +2,12 @@
 
 This repository will walk you through the process of quickly getting started with [Node.js](https://www.python.org/) and [MariaDB](https://github.com/mariadb-developers/mariadb-getting-started) using the [MariaDB Python connector](https://github.com/mariadb-corporation/mariadb-connector-python).
 
+<p align="center" spacing="10">
+    <kbd>
+        <img src="media/demo.gif" />
+    </kbd>
+</p>
+
 ## Requirements
 
 This sample requires the following to be installed/enabled on your machine:
