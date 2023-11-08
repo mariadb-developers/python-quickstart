@@ -2,12 +2,6 @@
 
 This repository will walk you through the process of quickly getting started with [Node.js](https://www.python.org/) and [MariaDB](https://github.com/mariadb-developers/mariadb-getting-started) using the [MariaDB Python connector](https://github.com/mariadb-corporation/mariadb-connector-python).
 
-<p align="center" spacing="10">
-    <kbd>
-        <img src="media/demo.gif" />
-    </kbd>
-</p>
-
 ## Requirements
 
 This sample requires the following to be installed/enabled on your machine:
@@ -28,37 +22,37 @@ The [tasks.py](src/tasks.py) sample can be used to:
 * `Create` a database and table (necessary for the subsequent CRUD operations).
 
     ```bash
-    $ python3 tasks.py create
+    $ python3 src/tasks.py create
     ```
 
 * `Drop` the database (and table).
 
     ```bash
-    $ python3 tasks.py drop
+    $ python3 src/tasks.py drop
     ```
 
 * `Insert` a new tasks record.
 
     ```bash
-    $ python3 tasks.py add 'New Task Description'
+    $ python3 src/tasks.py add 'New Task Description'
     ```
 
 * `Update` a task record's completion field (by specifying the `id` and `completion` value).
 
     ```bash
-    $ python3 tasks.py update 3 1
+    $ python3 src/tasks.py updateStatus 3 1
     ```
 
 * `Select` and print all tasks.
 
     ```bash 
-    $ python3 tasks.py show
+    $ python3 src/tasks.py show
     ```
 
 * `Delete` a task record (by `id`).
 
     ```bash
-    $ python3 tasks.py delete 3
+    $ python3 src/tasks.py delete 3
     ```
 
 ## Helpful Resources
